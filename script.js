@@ -5,10 +5,10 @@ const progressbar = document.querySelector('.progressbar')
 const progressvaluee=document.querySelector('.progressvalue')
 const progresslabel=document.querySelector('.progresslabel')
 const allquoets=[
-    'raise the bar by completing your goals',
-    'well begun its half done!',
-    'just a step way keep going!',
-    'whoa!,you just completed all the goals,time for chill:D',
+    'Raise the bar by completing your goals',
+    'Well begun its half done!',
+    'Just a step way keep going!',
+    'Whoa!,you just completed all the goals,time for chill',
 ]
 const allgoals=JSON.parse(localStorage.getItem('allgoals'))|| {
     first:{
